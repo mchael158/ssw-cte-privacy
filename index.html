@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — EXTENCION FOR SSW</title>
+    <style>
+      body { margin: 0; background: #f4f7fb; color: #1c2430; font: 16px/1.55 "Segoe UI", sans-serif; }
+      main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+      h1 { font-size: 28px; margin: 0 0 8px; }
+      h2 { font-size: 18px; margin: 28px 0 8px; }
+      p, li { margin: 0 0 10px; }
+      .meta { color: #526070; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Privacy Policy</h1>
+      <p class="meta">EXTENCION FOR SSW · 25 November 2026</p>
+      <p>This page describes the Chrome extension EXTENCION FOR SSW. The extension runs on the person's own computer. It does not send extension data to a server operated by the developer.</p>
+
+      <h2>Data stored on this computer</h2>
+      <ul>
+        <li>The PIN is not saved. It is used only to derive an encryption key with PBKDF2-HMAC-SHA-256. The key encrypts a local vault with AES-256-GCM.</li>
+        <li>The vault may contain the branch code, the company domain, the username, and the CPF. These values stay in Chrome storage on this computer.</li>
+        <li>The SSW password is kept in memory only while the person signs in. It is not written to storage.</li>
+        <li>A count of wrong PIN attempts is kept for the current browser session so the extension can lock after repeated failures.</li>
+      </ul>
+
+      <h2>Data sent to SSW</h2>
+      <p>When the person uses the extension, it talks only to <code>https://tms.ssw.inf.br</code>. Sign-in is sent to <code>/bin/ssw0422</code>. Later requests use the Chrome session already open on that site to consult or issue a complementary CT-e that the person asked for. The password and the CT-e data go to SSW, not to the developer.</p>
+
+      <h2>What this extension does not do</h2>
+      <ul>
+        <li>It does not sell data and it does not use data for advertising.</li>
+        <li>It does not transfer user data for purposes unrelated to the extension's single purpose.</li>
+        <li>It does not use or transfer user data to determine creditworthiness or for lending.</li>
+        <li>It does not include analytics or third-party trackers.</li>
+      </ul>
+
+      <h2>How to delete the data</h2>
+      <p>Remove the extension in <code>chrome://extensions</code>, or clear the extension's site data. That deletes the encrypted vault from this computer.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy can be sent through the Chrome Web Store listing for EXTENCION FOR SSW.</p>
+
+      <h2>Política de privacidade</h2>
+      <p>A extensão EXTENCION FOR SSW roda no computador da pessoa. O PIN não fica gravado: ele só deriva a chave que cifra, neste Chrome, a filial, o domínio, o usuário e o CPF. A senha do SSW não é armazenada. Ela segue apenas para <code>https://tms.ssw.inf.br</code> quando a pessoa entra. A extensão não envia esses dados ao desenvolvedor, não vende dados e não mede crédito. Para apagar o cofre, remova a extensão.</p>
+    </main>
+  </body>
+</html>
